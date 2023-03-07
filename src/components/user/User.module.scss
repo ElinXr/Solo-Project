@@ -1,1 +1,49 @@
 @use "../../styles/colors";
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../../fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+  
+
+.user {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+.infoContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+.name {
+    margin: 0;
+    color: colors.$text_secondary;
+    font-family: 'Montserrat-Black', 'sans-serif';
+    font-weight: 900;
+    font-size: 0.90rem;
+}
+  
+ 
+.info {
+    margin: 0;
+    color: colors.$secondary_main;
+    font-family: 'Montserrat-Bold', 'sans-serif';
+    font-weight: 700;
+    font-size: 0.70rem;
+}
+  
