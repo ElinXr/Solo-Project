@@ -1,20 +1,5 @@
 @use "../../styles/colors";
 
-@font-face {
-    font-family: 'Montserrat-Black';
-    src: url('../../fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('../../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-  
-
 .user {
     align-items: center;
     display: flex;
