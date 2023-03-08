@@ -1,12 +1,9 @@
 import React from 'react';
 import Avatar from '../avatar/Avatar';
-
 import Chip from '@material-ui/core/Chip';
 import Card from '@material-ui/core/Card';
-
 import CardMedia from '@material-ui/core/CardMedia';
 import millify from 'millify';
-
 import styles from './Card.module.scss';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
