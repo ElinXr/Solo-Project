@@ -1,15 +1,11 @@
 import React from 'react';
 import Avatar from '../avatar/Avatar';
-
 import Chip from '@material-ui/core/Chip';
 import Card from '@material-ui/core/Card';
-
 import styles from './Card.module.scss';
 import millify from 'millify';
-
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Countdown from 'react-countdown';
-
 import TimelineDot from '@mui/lab/TimelineDot';
 import { Circle } from '@mui/icons-material';
 
