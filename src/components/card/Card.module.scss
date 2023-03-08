@@ -15,3 +15,154 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 460px;
+    padding: 15px;
+    border-radius: 15px !important;
+    background-color: colors.$background_paper !important;
+}
+
+.avatar {
+    align-items: left;
+}
+
+.media {
+    width: 320px;
+    height: 290px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 20px !important;
+    padding: 0 auto !important;
+}
+
+.mediaContainer {
+  position: relative;
+  object-fit: cover;
+  margin: 10px auto;
+  width: 320px;
+  height: 290px;
+ 
+  border-radius: 15px !important;
+  padding: 15px auto !important;
+}
+
+.info {
+  
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.title {
+  font-size: 20px; 
+  font-family: 'Montserrat-Black';
+ 
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.likes {
+  background-color: #1A2E2D !important;
+  color: colors.$secondary_main !important;
+  border: 2px solid colors.$secondary_main !important;
+  font-family: 'Montserrat-Bold' !important;
+  font-size: 19px !important;
+  padding: 15px 5px !important;
+  margin: 10px auto !important;
+
+
+}
+
+.price{
+  font-family: 'Montserrat-Bold';
+  color: colors.$secondary_main;
+  margin: 0 auto;
+  font-size: 11px;
+}
+
+
+.icon {
+  color: colors.$secondary_main !important;
+  background-color: #1A2E2D !important;
+}
+
+.badge {
+  border-radius: 15px;
+  position: absolute;
+  margin: 30px auto auto 30px !important;
+  background-color: colors.$secondary_main;
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  height: 20px;
+ 
+  align-items: center;
+}
+.cardLive {
+  border-radius: 15px !important;
+  background-color: #1A2E2D !important;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  display: flex;
+ 
+  padding: 18px;
+}
+
+
+
+.dot {
+  width: 20px !important;
+  height: 20px !important;
+  margin: auto auto auto 10px !important;
+}
+
+.liveText {
+  font-family: 'Montserrat-Bold';
+  font-size: 16px;
+  margin: auto auto auto -15px !important;
+  font-weight: 800;
+
+
+}
+
+.countdown {
+  width: 100%;
+  bottom: 0 !important;
+  background-color: colors.$secondary_main !important;
+  border-radius: 0 0 15px 15px;
+  height: 40px;
+  position: absolute;
+ 
+}
+
+.counter {
+  font-family: 'Montserrat-Bold';
+  font-weight: 700;
+  padding: 0 auto !important;
+  margin-left: 100px;
+  margin-top: 11px;
+  font-size: 20px;
+
+}
+
+.wrapper {
+  border-radius: 15px !important;
+
+}
